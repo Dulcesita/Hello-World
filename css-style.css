@@ -1,0 +1,335 @@
+body{
+	font-size: 1em;
+	font-family: 'Snowburst One', 'cursive';
+}
+
+.container{
+	width: 90%;
+	margin: 0 5%;
+}
+
+	article{
+		text-align: center;
+	}
+
+.main-container aside {
+text-align: rigth;
+}
+
+/*color generar del sitio*/
+.header-container{
+	border-bottom: 20px solid #1c8aaa;
+	text-align: center;
+}
+
+.footer-container, 
+.main aside{/* se manda llamar las 2 clases para realizar los atributos, es decir todos los asside que esten dentro del main*/
+		}
+
+.header-container,
+.footer-container,/*todos los container que esten dentro de ....*/
+
+.main aside{
+	background: #40d8d8;
+	float: center;
+}
+
+.title{
+	color: #2627ff;
+	text-align: center;
+}
+
+.main aside{
+	float: center;
+} 
+
+element.style {
+	float: center;
+
+}
+
+/*telefono móvil, tablet y escritorio
+menu móvil (resolución más pequeña)*/
+
+body
+{
+	font-size: 1em;
+	font-family: 'Jacques Francois Shadow','cursive';
+	}
+
+
+nav ul{
+	margin:0;
+	padding: 0;
+}
+
+nav a{
+	display: block;/*block muestra y none oculta*/	
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	
+	color: white;
+	background: #22a9d1;
+	
+	}
+
+	.main-container aside{
+		display: none;
+		text-align: cen
+	}
+	
+nav a:hover{/*cuando pase por el elemento el cursor saldra subrayado*/
+	text-decoration: underline;	
+}
+
+nav a:visted{
+	color: write;
+}
+
+.main{
+	padding: 30px 0;
+}
+
+.main article hl{
+	font-size: 2em;
+}
+
+.main aside{
+	color: write;
+	padding: 0px 5% 10px;
+	}
+
+.footer-container{
+	color: write;
+	padding: 20px 0;
+}
+
+.clear:before,
+.clear:after {
+    content: " ";/*Agregar un contenido al elemento seleccionado ":after y :before"*/
+    display: table; /*Como converte diferentes elementos en Ítems de una tabla*/
+}
+
+.clear:after {
+    clear: both;/*No permite elementos flotantes a ambos lados*/
+	
+}
+
+/* esto se aplica a pantallas más anchas de 480px CELULARES */
+@media only screen and (min-width: 480px){
+	
+	.main-container 
+	aside form
+	input{
+		text-align:left;
+	}
+	
+	
+	body{
+		font-size: 1em;
+		font-family: 'Fruktur', 'cursive';
+	}
+	
+	.footer-container
+	{
+		-moz-box-shadow: 13px -14px 75px #6d9dd1;
+		-webkit-box-shadow: 13px -14px 75px #6d9dd1;
+		box-shadow: 13px -14px 75px #6d9dd1;
+	}
+	
+	
+	
+	.main-container header h1{
+		color: black;
+		text-shadow:-5px -9px 0px #434a52;
+	}
+
+	.main-container aside{
+		display: block;
+		text-align: left;
+		float: center;
+		
+	}
+	
+	h1{
+		color: #2021d7;
+	}
+	
+	h3{
+		text-align: left;
+		border-bottom: 20px solid #1c8aaa;
+	}
+	
+	
+	nav a{
+		float: center;
+		width: 27%;
+		margin: 0 1.7%;
+		margin-bottom: 0%;
+		display: block;/*block muestra y none oculta*/
+		margin-bottom: 10px;
+		padding: 15px 0;
+		
+		border:hidden 3px #1022e6;
+		-moz-border-radius: 27px;
+		-webkit-border-radius: 27px;
+		border-radius: 27px;
+	}
+	
+	img {
+		border-radius: 27px;
+		float: center;
+	}
+	
+	nav li:first-child a{
+		margin-left: 0; /* primer nodo de la lista*/
+	}
+	nav li:first-child a{
+		margin-right: 0px; /* primer nodo de la lista*/
+	}
+	
+	nav ul li{
+		display: inline;
+	}
+	
+	.{
+	border:hidden 3px #1022e6;
+		-moz-border-radius: 27px;
+		-webkit-border-radius: 27px;
+		border-radius: 27px;
+	}
+	
+}
+
+/* esto se aplica a pantallas más anchas de 780px TABLETS */
+@media only screen and (min-width: 780px){
+
+	body
+	{
+		font-size: 1em;
+		font-family: 'Kavoon', 'cursive';
+	}
+	
+	.main-container{
+	
+	}
+
+	
+	.header-container,/*hacerle sombra a las cajas*/
+	.main aside{
+		display: block;
+	/*cc3*/
+		-moz-box-shadow: 10px 10px 17px #79abe0;
+			-webkit-box-shadow: 10px 10px 17px #79abe0;
+					box-shadow: 10px 10px 17px #79abe0;
+	}
+	
+	.title{
+		float: center;
+		
+	}
+	
+	nav a{
+		border:hidden 3px #1022e6;
+		-moz-border-radius: 27px;
+		-webkit-border-radius: 27px;
+		border-radius: 27px;
+		
+	}
+	
+	nav{
+		float: center;
+		width: 38%;
+	}
+	
+
+	label {
+		width: 15%;
+		float: left;
+	}
+	
+	.main aside{
+		margin-top: 40px;
+		padding: 15px;
+		background: #a2d8d8;
+		background-size: 100%;
+		border-radius: 22px;
+		
+	}
+	
+	input#buscar{
+		width: 20%;
+		float: right;	
+		text-align: center;
+		margin-top: 0px;
+		padding: 10px;
+		background:white;
+		background-size: 100%;
+		border-radius: 22px
+	}
+	
+	textarea {
+		font-family: inherit;
+		font-size: 100%;
+		margin: 0;
+		margin-top: 0px;
+		padding: 0px;
+		background:white;
+		background-size: 100%;
+		border-radius: 10px
+	}
+	
+	
+	
+			
+
+	.footer-container{
+	transform: scale(0.794, 0.698);
+		-webkit-transform: scale(0.794, 0.698);
+		-moz-transform: scale(0.794, 0.698);
+		-o-transform: scale(0.794, 0.698);
+		-ms-transform: scale(0.794, 0.698);
+		
+	}
+
+		/*display: none;*/	
+	
+	.main-container header h1{
+		color: #000089;
+		text-shadow:14px 6px 10px #53698a;
+		
+		transform: rotate(4deg) scale(1) skew(-7deg) translate(99px);
+			-webkit-transform: rotate(4deg) scale(1) skew(-7deg) translate(99px);
+			-moz-transform: rotate(4deg) scale(1) skew(-7deg) translate(99px);
+			-o-transform: rotate(4deg) scale(1) skew(-7deg) translate(99px);
+			-ms-transform: rotate(4deg) scale(1) skew(-7deg) translate(99px)
+	}
+	
+	nav a:hover{/*cuando pase por el elemento el cursor saldra subrayado*/
+	color: #7273ff;
+	background: #000089;
+	text-decoration: none;
+	}
+	
+	.main-container aside{
+		float: center;
+	
+	}
+	
+	h3 label
+	{
+		text-align:center
+	}
+	
+	.container {  
+		width: 90%;
+		margin: 0 5%;
+	}
+	
+	article{
+		text-align: center;
+	}
+	
+	
+}
